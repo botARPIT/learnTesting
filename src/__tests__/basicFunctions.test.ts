@@ -13,6 +13,6 @@ describe('reverse()', () => {
     })
 
     it('works on empty stings', () => {
-    expect(reverseString('')).toBe('')
+    expect(reverseString('')).toBe(null)
     })
 })

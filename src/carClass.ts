@@ -47,7 +47,8 @@ export class SportsCar extends Car{
         if(this.carType == "DIESEL"){
             console.log("This is a classic beast")
             return "The body is old but the soul is still new"
-        } return "New body but old blood"
+        } console.log("The new gen is here") 
+        return "New body but old blood"
     }
 
     getTopSpeed(){
